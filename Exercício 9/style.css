@@ -1,0 +1,27 @@
+body{
+    background-color: #fb9f6a;
+    text-align: center;
+}
+h1{
+    font-size: 5em;
+    color: #fff;
+}
+img{
+    width: 20em; height: 20em;
+}
+.btSubmit{
+    border-radius: 10%;
+    width: 100px; height: 60px;
+    background-color: #b2e0ca;
+    border-style: none;
+    color: #0d424c;
+    font-size: 1.3em;
+}
+h3{
+    font-size: 3em;
+    color: #fff;
+}
+span{
+    font-size: 0.7em;
+    color: #fff; 
+}
