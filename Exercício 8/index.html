@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="/img/ex6_2.jpg" alt="sorteio número">
+    <h1>Jogo Descubra o número</h1>
+    <form>
+        <p>Número:
+            <input type="number" min="1" max="100" id="inNum" autofocus required>
+            <input type="submit" value="Apostar" id="btSubmit">
+            <input type="button" value="Jogar novamente" id="btNovo" class="oculta">
+        </p>
+    </form>
+    <h3>Erros: <span id="outErros"></span></h3>
+    <h3>Chances: <span id="outChances">6</span></h3>
+    <h3>Dica: <span id="outDicas">É um número entre 1 e 100</span></h3>
+    
+    <script src="/index.js"></script>
+</body>
+</html>
