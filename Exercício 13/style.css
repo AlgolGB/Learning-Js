@@ -1,0 +1,9 @@
+h1{
+    border-bottom-style: inset;
+}
+img{
+    float: left; width: 300px; height: 450px;
+}
+pre{
+    font-size: 1.2em;
+}
